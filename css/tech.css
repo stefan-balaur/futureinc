@@ -1,0 +1,48 @@
+:root {
+    --primary: #061525;
+    --accent: #237FE2;
+    --gray: #393C41;
+}
+
+.page-header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 8rem;
+    color: white;
+    background-color: var(--primary);
+}
+
+.page-header h1 {
+    font-size: 3.25rem;
+}
+
+#about-tech img {
+    object-position: left;
+}
+
+#grow-ai img {
+    object-position: left;
+}
+
+#grow-ai .info-content p {
+    padding-bottom: 2rem;
+}
+
+#grow-ai .more-btn {
+    background-color: transparent;
+    outline: 2px solid white;
+    color: white;
+}
+
+#grow-ai .more-btn:hover {
+    background-color: white;
+    color: var(--primary);
+}
+
+@media screen and (max-width: 600px) {
+    .page-header h1 {
+        font-size: 2.75rem;
+    }
+}

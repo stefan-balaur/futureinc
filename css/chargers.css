@@ -1,0 +1,78 @@
+:root {
+    --primary: #061525;
+    --accent: #237FE2;
+    --gray: #393C41;
+}
+
+body {
+    color: var(--primary);
+}
+
+.carousel {
+    height: 100dvh;
+    z-index: 0;
+}
+
+.carousel img {
+    object-fit: cover;
+    object-position: center;
+    height: 100vh;
+    overflow: hidden;
+}
+
+.carousel-item.left img {
+    object-position: 32.5%;
+}
+
+
+@media screen and (max-width: 500px) {
+    .carousel img {
+        height: 100svh;
+    }
+}
+
+
+
+
+
+
+
+#business h2 {
+    max-width: 400px;
+}
+
+#business img {
+    object-position: left;
+}
+
+#invest img {
+    object-position: right;
+}
+
+#brand h2 {
+    max-width: 330px;
+}
+
+#brand img {
+    object-position: 75% 50%;
+}
+
+#brand .info-content p {
+    margin-bottom: 1rem;
+}
+
+figure {
+    margin: 0;
+}
+
+h2 {
+    font-weight: 700;
+}
+
+.info-section .text-info {
+    color: var(--primary) !important;
+}
+
+#invest .text-info {
+    color: white !important;
+}
